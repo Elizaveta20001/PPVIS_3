@@ -5,9 +5,9 @@ import javax.swing.*;
 import java.awt.*;
 public class TaskPanel {
 
-    public JPanel panel;
-    public JTextField nValue;
-    public JTextField kValue;
+    private JPanel panel;
+    private JTextField nValue;
+    private JTextField kValue;
     private JLabel labelK;
     private JLabel labelN;
 

@@ -8,7 +8,7 @@ import java.util.concurrent.locks.Lock;
 
 public class Controller {
 
-    public Frame window;
+    private Frame window;
     private FirstFunction firstFunction;
     private SecondFunction secondFunction;
     private Lock lock;

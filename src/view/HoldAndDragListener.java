@@ -8,8 +8,8 @@ import java.awt.event.MouseEvent;
 
 
 public class HoldAndDragListener extends MouseAdapter {
-    public Point point;
-    public Graphic graphic;
+    private Point point;
+    private Graphic graphic;
     private static final double COEFFICIENT = 0.05;
     public HoldAndDragListener(Graphic graphic) {
 
@@ -35,4 +35,5 @@ public class HoldAndDragListener extends MouseAdapter {
             }
         }
     }
+
 }

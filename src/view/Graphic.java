@@ -10,11 +10,11 @@ public class Graphic extends JPanel {
 
     private int width = 600;
     private int height = 450;
-    public List<Point> valuesLinear;
-    public int fontSize;
-    public Dimension firstSize;
-    public Dimension size;
-    public Dimension center;
+    private List<Point> valuesLinear;
+    private int fontSize;
+    private Dimension firstSize;
+    private Dimension size;
+    private Dimension center;
     private Controller controller;
     private Graphics graph;
     private List<List<Point>> functionsData;
@@ -176,4 +176,9 @@ public class Graphic extends JPanel {
     public List<List<Point>> getFunctionsData() {
         return functionsData;
     }
+    @Override
+    public Dimension getSize() {
+        return size;
+    }
+
 }

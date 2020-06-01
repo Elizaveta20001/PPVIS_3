@@ -7,16 +7,16 @@ import java.awt.*;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Frame {
-    public JFrame frame;
-    public Controller controller;
+    private JFrame frame;
+    private Controller controller;
     private int width = 1500;
     private int height = 800;
     private TaskPanel taskPanel;
     private PointsTable mainPointsTable;
     private Buttons buttons;
     private Graphic graphic;
-    public FirstFunction calc;
-    public JScrollPane scroll;
+    private FirstFunction calc;
+    private JScrollPane scroll;
     private ReentrantLock lock;
 
     public Graphic getGraphic() {
@@ -88,6 +88,4 @@ public class Frame {
         controller.startFirstFunctionThread();
         controller.startSecondFunctionThread(taskPanel.getN(), taskPanel.getK());
     }
-
-
 }

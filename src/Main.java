@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Frame window = new Frame();
-        window.buildFrame().setVisible(true);
+        Frame frame = new Frame();
+        frame.buildFrame().setVisible(true);
 
     }
 

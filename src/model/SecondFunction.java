@@ -5,8 +5,7 @@ import view.Frame;
 import java.util.concurrent.locks.Lock;
 
 public class SecondFunction implements Runnable {
-    public static final int FUNCTION_ID = 1;
-    private static final int STRAP_DIGIT = 10;
+    private static final int FUNCTION_ID = 1;
     private int n;
     private int k;
     private Lock lock;

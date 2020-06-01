@@ -9,11 +9,11 @@ import java.util.Vector;
 
 public class PointsTable {
 
-    public Vector<String> columns;
-    public DefaultTableModel model;
-    public JTable table;
-    public JScrollPane scrollPane;
-    public Frame frame;
+    private Vector<String> columns;
+    private DefaultTableModel model;
+    private JTable table;
+    private JScrollPane scrollPane;
+    private Frame frame;
     public PointsTable(Frame frame) {
 
         columns = new Vector<String>();

@@ -11,8 +11,8 @@ import java.awt.event.MouseWheelListener;
 
 public class ZoomListener implements MouseWheelListener {
 
-    public Graphic graphic;
-    public Frame frame;
+    private Graphic graphic;
+    private Frame frame;
     public ZoomListener(Frame frame, Graphic graphic) {
         this.frame = frame;
         this.graphic = graphic;

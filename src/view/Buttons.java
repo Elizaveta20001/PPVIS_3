@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Buttons extends JPanel {
-    public JButton buttonStart;
+    private JButton buttonStart;
     private JButton buttonStop;
     private JButton onComing;
     private JButton outComing;

@@ -7,12 +7,12 @@ import java.util.Timer;
 import java.util.concurrent.locks.Lock;
 public class FirstFunction implements Runnable {
 
-    public double x;
-    public double beginI;
-    public double endI;
+    private double x;
+    private double beginI;
+    private double endI;
     private Lock lock;
     private Point secondPoint;
-    public static final int FUNCTION_ID = 0;
+    private static final int FUNCTION_ID = 0;
     private double step;
     private Frame frame;
     private int sleepTime;
